@@ -116,7 +116,7 @@ namespace OpenRasta.Web
 
         public class Gone : OperationResult
         {
-            public Gone(ICommunicationContext context) : base(410)
+            public Gone() : base(410)
             {
             }
         }
